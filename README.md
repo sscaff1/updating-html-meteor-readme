@@ -25,6 +25,7 @@ Clone the repo and set up the folder structure you need.
     You should now have a folder `/mdregistry` on your computer. This contains all of the files of the app.
 - Make anothe folder in the **same directory** called `mdregistry-deploy`. Both directories `/mdregistry` and `mdregistry-deploy` should be side by side.
 - `cd` into `/mdregistry-deploy` and in your console type `mup init`. This will create two files in the directory. Replace the information in these files with the files I provided you.
+
 ## Step 3
 This step walks your through uploading your changes to the server. Don't follow this set until you actaully change something in the repo.
 - `cd` into `mdregistry-deploy` and type in your console `mup deploy --settings settings.json`. That's it after a couple of minutes your changes should be live and online.
